@@ -11,7 +11,7 @@ pipeline {
             echo 'Testing...'
             snykSecurity(
             snykInstallation: 'snyktest',
-            snykTokenId: 'snykapitoken',
+            snykTokenId: 'snyktoken2',
             failOnIssues: 'false',
             //organisation: '',
             // place other optional parameters here, for example:
@@ -19,6 +19,5 @@ pipeline {
             )
             }
         }
-
     }
 }
